@@ -8,9 +8,11 @@ This installation method is appropriate for local testing, evaluation, and devel
 
 h2. Prerequisites
 
-# A GNU/Linux (virtual) machine
+# A GNU/Linux (virtual) machine running Debian or Ubuntu with kernel v3.8+
 # A working Docker installation (see "Installing Docker":https://docs.docker.com/installation/)
 # A working Go installation (see "Install the Go tools":https://golang.org/doc/install)
+# A working Ruby installation (version 1.9.3 or higher; see "Installing Ruby":https://www.ruby-lang.org/en/documentation/installation/)
+# `/usr/sbin/debootstrap` (if not present, the build script will try to `apt-get install` the `debootstrap` package for you)
 
 h2. Download the source tree
 
